@@ -37,9 +37,9 @@ namespace ApiTest.Controllers
         /// <returns></returns>
         [Route("all"), HttpGet]
         [SwaggerResponse((int)HttpStatusCode.OK, description: "Returns the collection of persons", type: typeof(List<PersonModel>))]
-        public IActionResult GetPersons()
+         public async Task<IActionResult> GetPersons()
         {
-            var persons = _db.Persons.Include(x => x.Identifiers).ToList();
+            var persons = await _db.Persons.Include(x => x.Identifiers).ToListAsync();
 
             return Ok(ProcessPersonModelList(persons));
         }

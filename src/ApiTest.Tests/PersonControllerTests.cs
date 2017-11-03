@@ -9,6 +9,7 @@ using ApiTest.DBContext.Entities;
 using System.Collections.Generic;
 using System.Net;
 using ApiTest.Models;
+using System.Threading.Tasks;
 
 namespace ApiTest.Tests
 {
@@ -49,9 +50,9 @@ namespace ApiTest.Tests
         }
 
         [Fact]
-        public void TestGetPersons()
+        public async Task TestGetPersons()
         {
-            var result = _controller.GetPersons();
+            var result = await _controller.GetPersons();
             ProcessResult(result);
         }
 
