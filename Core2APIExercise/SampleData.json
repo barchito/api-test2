@@ -1,0 +1,38 @@
+﻿{
+  "SampleData": {
+    "persons": [
+      {
+        "ID": "317CCD2C-F603-4DB5-80F2-287FA1DD081F",
+        "FirstName": "Abhishek",
+        "LastName": "Bhalani"
+      },
+      {
+        "ID": "BB676230-A020-4047-8A3A-AFEFA7AAB27D",
+        "FirstName": "Sanju",
+        "LastName": "Bhalani"
+      },
+      {
+        "ID": "A374F500-148E-478C-9A26-10D4E14A51D3",
+        "FirstName": "Akash",
+        "LastName": "Bhalani"
+      }
+    ] 
+    //"identifiers": [
+    //  {
+    //    "IdentifierType": 0,
+    //    "Value": "bhalaniabhishek@gmail.com",
+    //    "Person": "317CCD2C-F603-4DB5-80F2-287FA1DD081F"
+    //  },
+    //  {
+    //    "IdentifierType": 1,
+    //    "Value": "22323232",
+    //    "Person": "317CCD2C-F603-4DB5-80F2-287FA1DD081F"
+    //  },
+    //  {
+    //    "IdentifierType": 1,
+    //    "Value": "44444",
+    //    "Person": "BB676230-A020-4047-8A3A-AFEFA7AAB27D"
+    //  }
+    //]
+  }
+}
