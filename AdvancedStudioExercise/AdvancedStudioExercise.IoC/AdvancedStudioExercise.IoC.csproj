@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdvancedStudioExercise.Domain.Services\AdvancedStudioExercise.Domain.Services.csproj" />
+    <ProjectReference Include="..\AdvancedStudioExercise.Domain\AdvancedStudioExercise.Domain.csproj" />
+    <ProjectReference Include="..\AdvancedStudioExercise.Infrastructure.Sql\AdvancedStudioExercise.Infrastructure.Sql.csproj" />
+    <ProjectReference Include="..\AdvancedStudioExercise.Infrastructure\AdvancedStudioExercise.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
